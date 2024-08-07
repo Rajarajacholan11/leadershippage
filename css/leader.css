@@ -1,0 +1,170 @@
+*
+{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+body
+{
+    height:100%;
+    width:100% ;
+    background-color: #ffffff;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header
+{
+    background-color: #10012c;
+    color: white;
+    height:90px;
+    width: 103%;
+}
+.header h1
+{
+    padding-top:20px;
+}
+.subcontainer h3
+{
+    text-align: center;
+    font-weight: bolder;
+    font-size:40px;
+}
+.subcontainer p
+{
+    text-align: center;
+
+}
+.cd
+{
+    display: flex;
+    justify-content: center;
+   
+}
+.cardcontainer
+{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+.cardcontainer .card
+{
+    height:400px;
+    width:300px;
+    text-align: center;
+    border: 1px solid rgb(228, 220, 220);
+}
+.cardcontainer .card img
+{
+    height:200px;
+}
+.card ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    border-radius:30px;
+
+}
+.txt
+{
+    margin-top:20px;
+}
+.card ul li a
+{
+    margin-left:15px;
+    font-size:20px;
+
+}
+.footer
+{
+    height:150px;
+    width:103%;
+    background-color: #06010e;
+    margin-top:10px; 
+
+    
+}
+.footer ul
+{
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.footer ul  i
+{
+    font-size:40px;
+    margin-top:10px;
+}
+.footer h3
+{
+    color: white;
+    text-align: center;
+}
+.card:hover
+{
+    background-color: 
+    #dbd5d5;
+}
+
+/* media-querrys */
+
+@media (max-width:768px)
+{
+    .header h1
+    {
+        font-size:30px;
+    }
+    .footer
+    {
+        height: 100px;
+    }
+    .footer ul  li i
+    {
+        font-size:30px;
+    }
+    .footer h3
+    {
+        font-size:20px;
+    
+    }
+}
+
+
+@media (max-width:450px)
+{
+    .header h1
+    {
+        font-size:24px;
+    }
+    .subcontainer h3
+    {
+        font-size:24px;
+
+    }
+    .footer
+    {
+        height: 90px;
+    }
+    .footer ul  li i
+    {
+        font-size:25px;
+    }
+    .footer h3
+    {
+        font-size:15px;
+    
+    }
+    
+}
